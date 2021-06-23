@@ -85,7 +85,7 @@ dependencies {
     compile project(':dagger')
     compile project(':guice')
     compile project(':spring')
-    compile project(':micronaut')
+    // compile project(':micronaut')
     compile project(':common')
 
 }
