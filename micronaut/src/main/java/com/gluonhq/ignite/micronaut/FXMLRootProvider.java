@@ -72,11 +72,11 @@ public class FXMLRootProvider {
         return node;
     }
 
-    private String getViewPath(@NotBlank Class<?> cls) {
+    String getViewPath(@NotBlank Class<?> cls) {
         return cls.getName().replace('.', '/');
     }
 
-    private String withExt( @NotBlank String viewName, @NotBlank String extName ) {
+    String withExt( @NotBlank String viewName, @NotBlank String extName ) {
         String ext = extName.startsWith(".")? extName: "." + extName;
         return String.format("/%s%s", viewName, ext);
     }

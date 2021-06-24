@@ -27,7 +27,7 @@
  */
 package com.gluonhq.ignite.samples;
 
-/*import com.gluonhq.ignite.micronaut.MicronautContext;
+import com.gluonhq.ignite.micronaut.MicronautContext;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -52,7 +52,7 @@ public class MicronautContextApp extends Application {
         primaryStage.show();
     }
 
-}*/
+}
 
 
 

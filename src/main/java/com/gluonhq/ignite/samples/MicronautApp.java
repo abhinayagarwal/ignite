@@ -27,7 +27,7 @@
  */
 package com.gluonhq.ignite.samples;
 
-/*import com.gluonhq.ignite.micronaut.FXApplication;
+import com.gluonhq.ignite.micronaut.FXApplication;
 import com.gluonhq.ignite.micronaut.view.FXMLView;
 import io.micronaut.runtime.event.annotation.EventListener;
 import javafx.scene.Scene;
@@ -50,4 +50,4 @@ public class MicronautApp {
         primaryStage.setScene(new Scene(view.getRoot()));
         primaryStage.show();
     }
-}*/
+}

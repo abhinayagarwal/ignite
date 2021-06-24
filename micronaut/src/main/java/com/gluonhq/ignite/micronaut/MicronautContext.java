@@ -37,7 +37,7 @@ import java.util.Objects;
  */
 public final class MicronautContext implements DIContext {
 
-    private final ApplicationContext appContext = ApplicationContext.build().start();
+    private final ApplicationContext appContext = ApplicationContext.builder().start();
 
     /**
      * Create the Micronaut context
